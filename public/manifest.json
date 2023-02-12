@@ -1,0 +1,15 @@
+{
+	"name": "Orange It Up!",
+	"description": "This extension is created for changing the background color of the page orange.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+	    {
+        	"js": ["background.js"],
+        	"matches": [
+				"https://studip.tu-braunschweig.de/*"
+			]
+    	}
+	]
+
+}
